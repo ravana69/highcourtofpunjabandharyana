@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from highcourtchd.gov.in/clc.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Mar 2023 12:31:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<title>High Court of Punjab & Haryana,Chandigarh</title>
+<link rel="stylesheet" href="js/jquery-ui.css">
+<link rel="stylesheet" href="style.html">
+<link href="css/style.css" type="text/css" rel="stylesheet" />
+<script src="js/jquery_a.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/gigw.js"></script>
+
+<script>
+ $( function() {
+    $( "#datepicker" ).datepicker({
+      changeMonth: true,
+      changeYear: true,
+	  dateFormat: "dd/mm/yy",
+	  dateField      : 't_f_date',
+      triggerElement : 't_f_date'
+    });
+  } );
+	function validateForm()
+	{
+		$.ajax({ 
+			url:"view_causeList.php", 
+			type: "post", 
+			data: $('#cause_list').serialize()+"&action=show_causeList",
+			beforeSend: function()
+				{
+					$('#wait').show();
+				},
+			complete: function()
+				{
+					$('#wait').hide();
+				}, 
+			success: function(result)
+				{
+					//alert("result: "+result);
+					var splitresponse=result.split('!~~!'); 
+					if(splitresponse[0] == 1)
+					{
+						//alert();
+						$('#cause_list').hide();
+						$('.main_links').hide();
+						//$('#cont').hide();
+						$('#show_causeList').html(splitresponse[1]);
+						$('#show_causeList').show();
+					}
+					else
+					{
+						//$('#show_causeList').html('No data available');
+					} 
+					
+				}
+			});
+	}  
+</script>
+<style>
+#tables11 {
+    width: 36% !important;
+}
+</style>
+</head>
+<body bgcolor="#FFFBF0">
+
+<div class="motto-left"></div>
+<div class="moto"> 
+	<h3 class="contrast_h3">
+		"It is better to risk saving a guilty person than to condemn an innocent one." - Voltaire Zadig 	</h3> 
+</div>
+<div class="top-links">
+<ul>	
+<!--li style='background: #000000 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick='make(1)' >A-</li>
+<li style='background: #000000 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick='make(2)' >A</li>
+<li style='background: #000000 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick='make(3)' >A+</li-->
+
+<li class="decreaseFont" style='background: #000000 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;'>A-</li>
+<li class="OrginalFont" style='background: #000000 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;'>A</li>
+<li class="increaseFont" style='background: #000000 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;'>A+</li>
+<li style='background: #D2E9FF none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick="orignal_clr();changeBodyBg('transparent');">&nbsp;</li>
+<li style='background: #B3E8DC none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick="other_clr('#b3e8dc');changeBodyBg('#b3e8dc');">&nbsp;</li>
+<li style='background: #FFF none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick="other_clr('#ffffff');changeBodyBg('#ffffff');">&nbsp;</li>
+<li style='background: #E4E6B7 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px;color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick="other_clr('#e4e6b4');changeBodyBg('#e4e6b4');">&nbsp;</li>  
+<li style='background: #000000 none repeat scroll 0% 0%;font-weight: bold;padding: 0px 4px; color: rgb(255, 255, 255);border-style: outset; border-style: #eeebea;' onclick="other_clr('black');changeBodyBg('Black');">&nbsp;</li> 		
+</ul>
+<a href="clc5164.html?trs=screen_r_access">screen reader access</a>
+</div>	<img width="100%" src="includes/banner.jpg">
+	<marquee onMouseOut="start()" onMouseOver="stop()"><font size="4" color="#990033"><b> Welcome to Daily Cause List System of Punjab &amp; Haryana High Court</b></font></marquee>
+<center><table width="100" id="tables11" style="border:none" class="main_links"></br>
+		<tr><td align="center" colspan=4><a href="regdb747f.pdf?list_type=D" target="_blank" class="style1">Up-to-date Complete Division Bench Regular List WEF 04/01/2023</a></td></tr>	
+		
+		<tr><td align="center" colspan=4><a href="regsbd524.pdf?list_type=S" target="_blank" class="style1">Up-to-date Complete Single Bench Regular List WEF 04/01/2023</a></td></tr>
+		<!--<tr><td align="center" colspan=4><a href=" /data/1900_09_23_x_d.pdf" target="_blank" class="style1"><p> Up-to-date Complete Division Bench Regular List WEF 23/09/2017</a></td></tr>-->
+		<!--<tr><td align="center" colspan=4><a href=" /data/1900_09_23_x_s.pdf" target="_blank" class="style1">Up-to-date Complete Single Bench Regular List WEF 23/09/2017</a></td></tr>-->
+		
+		<tr><td align="center" ><a href="data/noticesnote09022016.html" target="_blank">Notices/Notes Regarding Daily Cause List <img src="includes/new12.gif"  /> </a></td></tr>
+		
+		<tr><td align="center" colspan=4 ><a href="fo2979.pdf?list_type=F" target="_blank" class="style1"> Date fixed in Fresh Ordinary cases </a></td></tr>
+		
+		<tr><td align="center" colspan=4><a href="https://www.phhc.gov.in/home.php?search_param=jud_cl" target="_blank"> <strong> Judge Wise Cause List </strong>  </a></td></tr>
+		<tr><td align="center" colspan=4><a href="https://www.phhc.gov.in/home.php?search_param=jud_reg_cl" target="_blank"> <strong> Judge Wise Regular Cause List </strong> <img src="includes/new12.gif"  /> </a></td></tr>
+		</center>
+		
+		</table>
+		</br>
+		</br><form id="cause_list" name="cause_list" >
+<table  id="tables11" style="border:none" width="80">
+		<tr>
+          <th align="center" colspan="2"><strong>Search Daily Cause List in PDF</strong></th>
+	    </tr>
+          <!--form name="allocate" method="post" action="clc.php"-->
+
+		  <tr>
+			<td align="center" class="text_label">
+				<font color="RED">*</font>Cause List Date
+			</td>
+			<td>
+				<input type="text" id="datepicker" value="24/03/2023" name="t_f_date">(MM/DD/YYYY)
+			</td>
+		  </tr>
+
+		  <tr><td align="center" class="td_header_text">Select List Type: </td>
+		  <td><select name="urg_ord">
+		  <option value="1">All Cause Lists</option>
+		  <option value="B">Complete List</option>
+		  <option value="U">Urgent</option>
+		  <option value="O">Ordinary</option>
+		  <option value="T">Takenup</option>
+		  <option value="R">Regular</option>
+		  <option value="S">Special-DB</option>
+		  <option value="W">Liquidation(Ordinary)</option>
+		  <option value="D">Samadhan</option>
+		  <option value="G">Mediation</option>
+		  <option value="A">Pre Lok-Adalat</option>
+		  <option value="L">Lok-Adalat</option>
+		  <option value="E">Election</option>
+		  <option value="Q">Liquidation (Urgent)</option>
+		  <option value="H">Commercial(Urgent)</option>
+		  <option value="I">Commercial(Ordinary)</option>
+		  <option value="J">Objections</option>
+		  <option value="N">CL Notes</option>
+		  <option value="M">Miscellaneous</option>
+		  <option value="V">Old Cases</option>
+		  <option value="F">Fix Today</option>
+		  </select> </td>
+		  </tr>
+
+		  <tr><td align="center" colspan="2"><input type="button" name="button" value="View CL" onclick="validateForm()"></td></tr>
+        
+        
+</table></form>
+<div id="show_causeList" name="show_causeList" ></div>
+</body>
+
+
+<!-- Mirrored from highcourtchd.gov.in/clc.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 24 Mar 2023 12:32:41 GMT -->
+</html>

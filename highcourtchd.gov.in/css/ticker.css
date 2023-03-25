@@ -1,0 +1,131 @@
+	
+#wrapper_tk h1.logo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: center;
+	color: #C00;
+	margin: 0px;
+	padding: 0px;	
+	}
+	
+#wrapper_tk{
+	width:985px;
+	float: none;
+	height: 17px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border: 1px solid #999;
+	padding: 5px;
+	overflow: hidden;
+}
+
+#wrapper_tk	p{color:#fff; padding:10px 0; text-align:center;}
+#wrapper_tk		.nav{}
+
+
+#wrapper_tk a{
+	color:#036;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+		
+}
+
+
+
+#vertical-ticker_tk{
+	height:20px;
+	width:880px;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0, .4);
+	float: left;
+	padding-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	margin: 0;
+	text-align: justify;
+	position: relative;
+	overflow: hidden;
+}
+
+#vertical-ticker_tk li{
+	display:block;
+	color:#000;
+	font-size:12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 2px;
+	width: 925px;
+	height:13px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	list-style-type: none;
+	overflow: hidden;
+	float: left;
+	}
+
+#vertical-ticker_tk li span{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #990033;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 10px;
+	padding-left: 5px;
+	}
+
+
+#vertical-ticker_tk a{
+	color:#036;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+
+}	
+
+#vertical-ticker_tk a:hover{
+	color:#036;
+	text-decoration:underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+
+}
+	
+.controls_tk{
+	position: relative;
+	float: right;
+	height: 20px;
+	width: 40px;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-bottom: 2px;
+	margin-left: 10px;	
+}

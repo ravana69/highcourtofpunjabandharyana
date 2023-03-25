@@ -1,0 +1,144 @@
+	
+#wrapper_j h1.logo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: center;
+	color: #C00;
+	margin: 0px;
+	padding: 0px;	
+	}
+	
+#wrapper_j{
+	width:190px;
+	float: none;
+	height: 320px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	/*border: 1px solid #666;*/
+	background-image: url(../images/judgment_jd.png);
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+#wrapper_j p{color:#fff; padding:10px 0; text-align:center;}
+#wrapper_j .nav{}
+
+
+#wrapper_j a{
+	color:#036;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+		
+}
+
+
+
+#vertical-ticker{
+	height:auto;
+	width:185px;
+	overflow:hidden;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0, .4);
+	float: left;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	margin: 0;
+	text-align: justify;
+}
+
+#vertical-ticker li{
+	display:block;
+	color:#000;
+	font-size:12px;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	padding: 7px;
+	width: 175px;
+	height:auto;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	text-transform: none;
+	list-style-type: none;
+	overflow: hidden;	
+	}
+
+#vertical-ticker li span{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #990033;
+	text-decoration: none;	
+
+	}
+
+
+#vertical-ticker a{
+	color:#036;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+
+}	
+
+#vertical-ticker a:hover{
+	color:#036;
+	text-decoration:underline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+
+}
+	
+.controls{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	position: relative;
+	float: none;
+	height: 20px;
+	width:100px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:center;
+}
+
+.controls_holder{
+	padding: 5px;
+	float: left;
+	height: 25px;
+	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5px;
+}

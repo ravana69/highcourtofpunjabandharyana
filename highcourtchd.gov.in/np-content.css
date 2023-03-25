@@ -1,0 +1,158 @@
+#userAction {
+	background-image: url(images/1px_new_newbg.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px 3px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 5px;
+	float: none;
+	height: auto;
+	width: auto;
+}
+
+.NP .NP-content {
+	padding: 3px;
+	border: 2px dotted #EFD835;
+	clear: both;
+	width: 184px;
+	height: 300px;
+}
+
+.more_new { text-align:left; padding-left:15px; color:#000000; background:#FFFFFF;}
+
+/*.centerout {
+	float: left;
+	height: 350px;
+	width: 190px;
+	margin-top: 100px;
+	margin-left: 400px;
+	
+	
+	}*/
+
+strong {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #F00;
+	text-decoration: none;	
+}
+
+
+.NP-content a:visited {text-decoration: none;}  
+
+.NP-content a:hover, a:active {
+	text-decoration: underline;
+	z-index: 12;
+}
+
+.more_new h2{
+	text-align:left;
+	padding-left:0px;
+	color:#036;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	float: left;
+	height: auto;
+	width: auto;
+}
+
+
+
+/********** Misc *************/
+	
+.clr {clear: both;}
+
+/****************** homepage *********************/
+
+.middporson { width:910px; margin:auto; margin-top:20px;}
+.midd_right .news_up1 {
+	width:190px;
+	float:left;
+	height:300px;
+	overflow: hidden;
+	margin-bottom:10px;
+	background-image: url(images/1px_new_newbg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.news_up1 .new_right { background:url(images/1px_to_rgg.jpg) no-repeat top right; height:300px; width:100%; float:left;}
+.new_right .bg_rgg {background:url(images/rg_new_newbg.jpg) no-repeat top left; height:300px;}
+.new_left { background:url(images/index.html) no-repeat top right; height:300px; width:100%; float:left;}
+
+
+
+.new_right ul {
+	margin: 5px 7px 5px 30px;
+	line-height:normal;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333;
+	text-decoration: none;
+	
+}
+.new_right ul li {
+	list-style-image: url(images/law.png);
+	padding-bottom: 6px;
+	text-align:justify;
+}
+
+.new_right ul li a { color:#000000; text-decoration:none; }
+
+.imageleft {
+	float: left;
+	text-align:center;
+	height: auto;
+	width: auto;
+	padding-left: 10px;	
+	}
+
+.news_container{
+		 z-index: 13;
+		 position: relative;
+		 height: auto;
+		 overflow: scroll;
+	        	}
+
+. textItem {
+	z-index: 11;
+	position: relative;
+	top: 10px;
+	left: 0px;
+	}
+
+.hidethis {
+	position: absolute;
+ 	left: 0;
+ 	width: 1px;
+ 	height: 1px;
+ 	overflow: hidden;
+}
+
+.start-stop{
+	padding: 5px;
+	float: right;
+	height: auto;
+	width: auto;
+	z-index: 12;
+	}
